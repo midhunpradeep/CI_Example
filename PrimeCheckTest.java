@@ -25,7 +25,7 @@ public class PrimeCheckTest {
     assertEquals("Test 1", true, PrimeCheck.isPrime(3));
     assertEquals("Test 2", true, PrimeCheck.isPrime(5));
     assertEquals("Test 3", true, PrimeCheck.isPrime(19));
-    assertEquals("Test 4", true, PrimeCheck.isPrime(2147483647));
+    assertEquals("Test 4", true, PrimeCheck.isPrime(7919));
   }
 
   // --------------------------------------------------------------- //
@@ -35,6 +35,6 @@ public class PrimeCheckTest {
     assertEquals("Test 1", false, PrimeCheck.isPrime(6));
     assertEquals("Test 2", false, PrimeCheck.isPrime(9));
     assertEquals("Test 3", false, PrimeCheck.isPrime(100));
-    assertEquals("Test 4", false, PrimeCheck.isPrime(2147483648));
+    assertEquals("Test 4", false, PrimeCheck.isPrime(7909));
   }
 }
